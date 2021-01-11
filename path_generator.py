@@ -130,7 +130,6 @@ if __name__=='__main__':
         t_vec.append(t)
         q_vec.append(myPath.query(t))
         t+=total_time/N
-        print(q_vec[i])
     plt.plot(t_vec,q_vec)
     plt.show()
 
